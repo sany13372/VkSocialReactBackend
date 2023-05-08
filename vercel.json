@@ -1,5 +1,8 @@
 {
   "version": 2,
+  "env": {
+    "PORT": "PORT"
+  },
   "builds": [
     {
       "src": "src/main.ts",
