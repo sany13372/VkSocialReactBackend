@@ -17,18 +17,6 @@
         "GET",
         "POST",
         "PUT",
-        "PATCH",
-        "DELETE"
-      ]
-    } ,
-    {
-      "src": "/api/post",
-      "dest": "src/post/post.module.ts",
-      "methods": [
-        "GET",
-        "POST",
-        "PUT",
-        "PATCH",
         "DELETE"
       ]
     }
