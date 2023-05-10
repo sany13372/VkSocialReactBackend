@@ -16,7 +16,7 @@
       "methods": ["GET", "POST", "PUT", "PATCH", "DELETE"]
     },
     {
-      "src": "/api/post",
+      "src": "/post",
       "dest": "src/post/post.controller.ts",
       "methods": [
         "GET",
