@@ -12,7 +12,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/",
+      "dest": "/main.ts",
       "methods": [
         "GET",
         "POST",
@@ -21,5 +21,6 @@
         "DELETE"
       ]
     }
-  ]
+  ],
+  "rewrites": [{ "source": "/(.*)", "destination": "/api" }]
 }
