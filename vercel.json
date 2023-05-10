@@ -12,7 +12,25 @@
   "routes": [
     {
       "src": "/src/(.*)",
-      "methods": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+      "dest": "src/main.ts",
+      "methods": [
+        "GET",
+        "POST",
+        "PUT",
+        "PATCH",
+        "DELETE"
+      ]
+    },
+    {
+      "src": "/src/(.*)",
+      "dest": "src/post/post.module.ts",
+      "methods": [
+        "GET",
+        "POST",
+        "PUT",
+        "PATCH",
+        "DELETE"
+      ]
     }
   ]
 }
