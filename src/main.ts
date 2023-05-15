@@ -5,8 +5,8 @@ import {AppModule} from "./app.module";
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   app.enableCors()
+  console.log(process.env.MONGO_URL)
   app.setGlobalPrefix('/api')
-  //console.log(process.env.PORT)
-  await app.listen(3800);
+  await app.listen(process.env.PORT || 4200);
 }
 bootstrap();
